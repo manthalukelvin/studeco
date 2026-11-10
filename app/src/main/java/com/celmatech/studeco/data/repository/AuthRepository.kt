@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.serialization.json.buildJsonObject
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -84,7 +85,7 @@ class AuthRepository @Inject constructor(
             client.auth.signUpWith(Email) {
                 this.email = email.trim()
                 this.password = password
-                data = buildMap {
+                data = buildJsonObject {
                     put("full_name", fullName)
                     put("education_level", educationLevel)
                     put("institution", institution)
