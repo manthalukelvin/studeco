@@ -34,8 +34,8 @@ android {
             val keyAlias = System.getenv("RELEASE_KEY_ALIAS") ?: "studeco"
             val keyPassword = System.getenv("RELEASE_KEY_PASSWORD") ?: ""
 
-            if (file(keystorePath).exists() && keystorePassword.isNotEmpty()) {
-                storeFile = file(keystorePath)
+            if (rootProject.file(keystorePath).exists() if (file(keystorePath).exists() && keystorePassword.isNotEmpty()) {if (file(keystorePath).exists() && keystorePassword.isNotEmpty()) { keystorePassword.isNotEmpty()) {
+                storeFile = rootProject.file(keystorePath)
                 storePassword = keystorePassword
                 this.keyAlias = keyAlias
                 this.keyPassword = keyPassword
