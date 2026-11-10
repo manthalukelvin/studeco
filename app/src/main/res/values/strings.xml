@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudeCo</string>
+    <string name="app_tagline">The Digital Campus for Every Student</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password">Reset password</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">or</string>
+    <string name="home">Home</string>
+    <string name="communities">Communities</string>
+    <string name="messages">Messages</string>
+    <string name="study">Study</string>
+    <string name="profile">Profile</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="opportunities">Opportunities</string>
+    <string name="planner">Planner</string>
+    <string name="ai_tutor">AI Tutor</string>
+    <string name="logout">Log out</string>
+    <string name="settings">Settings</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="feature_disabled">This feature is currently disabled by the administrator.</string>
+    <string name="support_email">helpstudeco@gmail.com</string>
+    <string name="support_phone">+265 896 144 664</string>
+</resources>
