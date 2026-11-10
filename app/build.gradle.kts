@@ -115,6 +115,7 @@ dependencies {
     // DataStore + Security
     implementation("androidx.datastore:datastore-preferences:1.1.1")
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
+    implementation("com.google.errorprone:error_prone_annotations:2.36.0")
 
     // Image loading
     implementation("io.coil-kt:coil-compose:2.7.0")
